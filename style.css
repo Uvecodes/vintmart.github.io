@@ -474,7 +474,7 @@ body{
 }
 
 .promo-banner {
-    background-color: #00274d;
+    background-color:rgba(36, 73, 97, .2);
     border-radius: 15px;
     padding: 2rem;
     flex: 1;
@@ -483,7 +483,13 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    background: #244961 url() no-repeat center/cover;
+    background-image: url(./assets/n-background.svg);
+    
+
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center; /* Centers the image */
+    background-blend-mode: overlay;
     
     
     background-size: cover;
@@ -665,16 +671,18 @@ body{
 
 .mailing-list-container {
     
-    background-color: #244961;
+    background-color:rgba(36, 73, 97, .2);
     color:white;
     padding: 6rem 2rem;
     text-align: center;
     border-radius: 15px;
     margin: 0 auto;
     width: 105%;
-    background-image: url('C:\Users\uveco\OneDrive\Desktop\vinimart\assets\n-background.svg'); /* Replace with actual background pattern if needed */
+    background-image: url(./assets/n-background.svg); /* Replace with actual background pattern if needed */
     background-size: cover;
     background-repeat: no-repeat;
+   
+    
     position: relative;
     left: -2%;
     overflow: hidden;
